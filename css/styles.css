@@ -1,0 +1,154 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(70, 70, 70);
+}
+.main-header{
+    position: relative;
+    margin: auto;
+    
+}
+.main-header img{
+    display: block;
+    margin: auto;
+    border-radius: 100px;
+}
+
+.toggle-nav{
+    background-color: rgb(71  , 71, 71);
+}
+
+.main-nav{
+    display: block;
+    margin: auto;
+    left: 0px;
+    text-align: center;
+}
+
+.main-nav ul {
+    position: relative;
+    list-style-type: none; 
+    width: auto; 
+    margin-right: 40px;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.main-nav li{
+   display: block;
+   margin: auto;
+   background-color: rgb(70, 70, 70);
+   text-align: center;
+   border: 1px solid black;
+   text-decoration: none;
+    margin: auto;
+    text-transform: capitalize;
+
+}
+li{
+    
+}
+.banner{
+    display: none;
+}
+
+.product{
+    width: 90%;
+    margin: auto;
+   
+}
+.photo-container{
+    position: relative;
+    margin: auto;
+    margin-top: 25px;
+}
+.photo{
+    width: 100%;
+}
+.special{
+    position: absolute;
+    z-index: 10;
+    right: 1%;
+}
+.zoom{
+    position: absolute;
+    z-index: 5;
+    top: 50%;
+    background-color: rgba(128, 128, 128, 0.5);
+    color: white;
+    width: 100%;
+    left: 0%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.more{
+    background-color: rgb(70, 70, 70);
+    color: white;
+    padding: 2px;
+    box-sizing: border-box;
+    
+}
+
+.main-footer{
+    display: block;
+    margin: auto;
+    left: 0px;
+    text-align: center;
+}
+
+.main-footer ul{
+    background-color: red;
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+    width: 100%;
+    
+}
+
+.main-footer a{
+    color: white;
+    text-transform: capitalize;
+    margin-right: 40px;
+}
+
+/*Responsive para tablet mas de 400px*/
+
+@media(min-width: 768px){
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .container{
+        width: auto
+    }
+    .main-nav{
+        width: 100%;
+        overflow: hidden;
+    }
+    .main-nav ul{
+        margin: auto;
+    }
+   .main-nav li{
+       
+       display: inline-block;
+       float:left;
+       box-sizing: border-box;
+       padding: 2px;
+       width: 12%;
+       margin: 2%;
+       margin-right: 2%;
+       border: none;
+       background-color: rgb(71, 71, 71) ;
+       text-transform: capitalize;
+   }
+
+   .banner{
+       display: block;
+       width: 100%;
+   }
+
+
+}
